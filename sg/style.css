@@ -13,7 +13,7 @@
     right: 10px;
     height: 20%;
     width: 10%;
-    animation: mov 1.5s infinite linear;
+    
 }
 #character{
     position: fixed;
@@ -21,6 +21,7 @@
     text-align: center;
     justify-content: flex;
     align-items: center;
+    background-image: url("../res/trans_background/5IPv.gif");
     background-color: black;
     top: 70%;
     left: 10px;
@@ -50,4 +51,59 @@
     50%{top: 30%;}
     70%{top: 30%;}
     100%{top: 70%;}
+}
+
+#my_notes {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+}
+
+.y2010{
+    background-color: blue;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}}
+.y2011{
+    background-color: aqua;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2012{
+    background-color: aquamarine;
+    background-image: url("../res/trans_background/pop_tra.gif");
+
+}
+.y2013{
+    background-color: violet;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2014{
+    background-color: cadetblue;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2015{
+    background-color: wheat;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2016{
+    background-color: tomato;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2017{
+    background-color: teal;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2018{
+    background-color: antiquewhite;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.y2019{
+    background-color: blueviolet;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+
+/* animations */
+
+.animate1{
+    animation: mov 1.5s infinite linear;
 }

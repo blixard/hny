@@ -1,0 +1,18 @@
+.header{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: cursive;
+}
+.header,a:hover{
+    color: violet;
+}
+a{
+    color: beige;
+}
+body{
+    background-image: url("../res/trans_background/sparkle_tra.gif");
+    background-color: thistle;
+}

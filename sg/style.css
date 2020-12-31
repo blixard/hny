@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.game{
+
+}
+#block{
+    position: fixed;
+    background-color: yellow;
+    bottom: 20%;
+    right: 10px;
+    height: 20%;
+    width: 10%;
+    animation: mov 1.5s infinite linear;
+}
+#character{
+    position: fixed;
+    color: aqua;
+    text-align: center;
+    justify-content: flex;
+    align-items: center;
+    background-color: black;
+    top: 70%;
+    left: 10px;
+    height: 7%;
+    width: 10%;
+}
+.game{
+    position: fixed;
+    height: 2px;
+    width: 100%;
+    bottom: 19.8%;
+    background-color: blueviolet;
+}
+.animate{
+    animation: jump 0.5s linear;
+}
+
+@keyframes mov{
+    0%{left: 500px}
+    100%{left: -20px;}
+}
+@keyframes jump{
+    0%{top: 70%;}
+    30%{top: 30%;}
+    40%{top: 30%;}
+    45%{top: 30%;}
+    50%{top: 30%;}
+    70%{top: 30%;}
+    100%{top: 70%;}
+}

@@ -1,18 +1,48 @@
-.header{
+*{
+    margin: 0px;  
+}
+#header_t{
     background-color: black;
     color: antiquewhite;
     text-align: center;
     font-size: xx-large;
     font-weight: 400;
     font-family: cursive;
+    
 }
+.bg1{
+    background-color: aqua;
+    background-image: url("../res/trans_background/pop_tra.gif");
+}
+.bg2{
+    background-image: url("../res/trans_background/2r67.gif");
+}
+
 .header,a:hover{
     color: violet;
 }
 a{
     color: beige;
 }
+
+
 body{
     background-image: url("../res/trans_background/sparkle_tra.gif");
     background-color: thistle;
+}
+
+.main{
+    margin-top: 50%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: bisque;
 }
